@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">DSP Calculator and Notes</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Digital Signal Processing</string>
+    <string name="nav_header_subtitle">Calculator and Notes</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Share</string>
+    <string name="linear_convolution">Linear Convolution</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_settings">About</string>
+    <string name="menu_notes">Notes</string>
+
+    <string name="circular_convolution">Circular Convolution</string>
+    <string name="dft">DFT</string>
+    <string name="about_info">Created by Animesh Shukla\n\nContact info:\nanimesh7752@gmail.com\n\n\nWant to tell us about a bug? Any suggestions?Write to us!\n<a href="https://forms.gle/ShJD4yzydemcRj6J8">https://forms.gle/ShJD4yzydemcRj6J8</a>\n\n\n\n\n\n\n\nLogo Developed by:Harshit Varikolu</string>
+</resources>
