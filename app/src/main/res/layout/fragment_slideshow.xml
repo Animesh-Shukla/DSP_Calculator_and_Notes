@@ -7,26 +7,28 @@
     android:orientation="vertical"
     tools:context=".ui.slideshow.SlideshowFragment">
 
-    <ScrollView
+
+
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showYouTubeButton="false"
+        app:videoId="6dFnpz_AEyA" />
 
-        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:autoPlay="true"
-            app:showYouTubeButton="false"
-            app:videoId="6dFnpz_AEyA" />
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showYouTubeButton="false"
+        app:videoId="p8cina5Ke_c" />
+    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:autoPlay="true"
+        app:showYouTubeButton="false"
+        app:videoId="JpHXMcDxNiA" />
 
-        <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            app:autoPlay="true"
-            app:showYouTubeButton="false"
-            app:videoId="6dFnpz_AEyA" />
-
-
-    </ScrollView>
 
 
 </LinearLayout>
