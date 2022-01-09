@@ -14,7 +14,6 @@
         android:layout_marginTop="30dp"
         android:padding="10dp"
         android:text="Instructions...\nEnter the series values (Ex.:1,2,3,...)"
-        android:textColor="@color/black"
         android:textSize="15sp"
 
         android:textStyle="bold"
