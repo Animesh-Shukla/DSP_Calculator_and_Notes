@@ -4,9 +4,8 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:backgroundTint="#FDDADA"
+    android:backgroundTint="@color/background"
     tools:context=".ui.home.HomeFragment">
-
 
     <Button
         android:id="@+id/linear"
@@ -20,10 +19,8 @@
         android:fadingEdge="horizontal"
         android:hapticFeedbackEnabled="true"
         android:onClick="launchLCActivity"
-
         android:text="@string/linear_convolution"
         android:textAllCaps="false"
-        android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,7 +44,6 @@
 
         android:text="@string/circular_convolution"
         android:textAllCaps="false"
-        android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -70,7 +66,6 @@
         android:onClick="launchDFTactivity"
         android:text="@string/dft"
         android:textAllCaps="false"
-        android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -94,7 +89,6 @@
 
         android:text="IDFT"
         android:textAllCaps="false"
-        android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
@@ -134,7 +128,6 @@
 
         android:text="Coming Soon!"
         android:textAllCaps="false"
-        android:textColor="@color/black"
         android:textStyle="bold"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
