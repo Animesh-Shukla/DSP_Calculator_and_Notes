@@ -13,11 +13,11 @@ import com.example.dspcalculatorandnotes.R;
 
 public class SlideshowFragment extends Fragment {
 
-    public View onCreateView(@NonNull LayoutInflater inflater,
-                             ViewGroup container, Bundle savedInstanceState) {
-        View root=inflater.inflate(R.layout.fragment_slideshow,container,false);
+    public View onCreateView(@NonNull LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
 
+        View root = inflater.inflate(R.layout.fragment_slideshow, container, false);
         return root;
 
     }
+
 }

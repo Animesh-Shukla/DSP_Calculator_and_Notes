@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,28 +7,33 @@
     android:orientation="vertical"
     tools:context=".ui.slideshow.SlideshowFragment">
 
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="match_parent"
 
+        android:layout_height="150dp"
+        android:layout_marginBottom="30dp"
+        android:gravity="center"
+        android:text="Notes Video"
+        android:textSize="30sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
+        android:id="@+id/youTubePlayerView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        app:autoPlay="true"
-        app:showYouTubeButton="false"
-        app:videoId="6dFnpz_AEyA" />
-
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:autoPlay="true"
-        app:showYouTubeButton="false"
-        app:videoId="p8cina5Ke_c" />
-    <com.pierfrancescosoffritti.androidyoutubeplayer.core.player.views.YouTubePlayerView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        app:autoPlay="true"
-        app:showYouTubeButton="false"
-        app:videoId="JpHXMcDxNiA" />
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="15dp"
+        android:layout_marginRight="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView6"
+        app:layout_constraintVertical_bias="0"
+        app:videoId="SrJq2AzXZME" />
 
 
-
-</LinearLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
